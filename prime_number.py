@@ -4,7 +4,7 @@ def is_prime(number: int):
     elif number % 2 == 0:
         return False
     else:
-        for i in range(4, number // 2):
+        for i in range(3, number // 2):
             if number % i == 0:
                 return False
         else:
